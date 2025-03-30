@@ -31,4 +31,236 @@
     background-color: #000;
     display: flex;
     justify-content: center;
+    border: none;
+}
+.flex01 {
+    padding-top: 40px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin: auto;
+}
+.text-own p {
+    width: 400px;
+    padding: 5px;
+    line-height: 1.2;
+    font-size: 18px;
+}
+
+.text-own h1{
+    line-height: 1.5;
+    width: 400px;
+    font-size: 34px;
+}
+.btn2 {
+    display: flex;
+    flex-direction: row;
+    gap: 24;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #000;
+    color: aliceblue;
+    padding: 12px 15px;
+    border-radius: 32px;
+    border: none;
+}
+.first {
+    margin-left: 30px;
+    width: 496px;
+    height: 496px;
+    background-image: url(img/asset1.png);
+    background-size: cover;
+    background-position: center;
+}
+.images {
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    margin: auto;
+}
+.second {
+    display: flex;
+    flex-direction: column;
+}
+.semi1{
+    margin: 5px;
+    width: 496px;
+    height: 125px;
+    background-image: url(img/asset2.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.semi2{
+    width: 496px;
+    height: 125px;
+    background-image: url(img/assets3.jpg);
+    background-size: cover;
+    background-position: center;
+}
+.third {
+    margin-right: 30px;
+    width: 496px;
+    height: 496px;
+    background-size: cover;
+    background-position: center;
+    background-image: url(img/assets4.jpg);
+}
+.to-pad {
+    margin-left: 20px;
+}
+.pad {
+    margin-right: 20px;
+}
+.align {
+    padding-top: 10px;
+    text-align: center;
+    font-size: 45px;
+}
+.alignwork {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    margin: auto;
+    justify-content: space-between;  
+    align-items: center;
+    text-align: center;
+}
+.alignwork img {
+    padding: 5px;
+}
+.alignwork button {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    margin: auto;
+    background-color: #000;
+    color: antiquewhite;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+.imgBG {
+    width: 100%;
+    height: 50vh;
+    background-image: url(img/imgBG.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+     align-items: center;
+     text-align: center; 
+    color: aliceblue;
+}
+section.imgBG {
+    margin-top: 40px;
+}
+.imgBG h1 {
+    width: 400px;
+    line-height: 1.4;
+    padding-bottom: 10px;
+    font-size: 34px;
+}
+.imgBG button{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #000;
+    color: aliceblue;
+    padding: 10px 20px;
+    border: none;
+    justify-content: center;
+    gap: 20px;
+    border-radius: 30px;
+}
+.review-cta {
+    text-align: center;
+}
+.review-cta h1 {
+    padding-top: 24px;
+    font-size: 64px;
+}
+.review-cta p {
+    padding-top: 24px;
+    font-size: 32px;
+}
+.review-people {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: auto;
+    align-items: center;
+    text-align: center;
+}
+.reduce {
+    width: 400px;
+    font-size: 20px;
+}
+.pre-foot{
+    padding-top: 30px;
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 40px;
+    margin: auto;
+    align-items: center;
+    height: 80vh;
+}
+.image-part {
+    width: 50%;
+    height: 60vh;
+    background-image: url(img/profile-about.png);
+    background-size: cover;
+}
+div.text-part p {
+    width: 600px;
+    font-size: 24px;
+    line-height: 1.7;
+}
+.abt-btn {
+    background-color: #000;
+    color: aliceblue;
+    border: none;
+    border-radius: 20px;
+    margin-top: 10px;
+    padding: 10px 20px;
+}
+.foot {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 400px;
+    margin: auto;
+}
+.general-right {
+    margin-left: 20px;
+    display: flex;
+}
+.reducez {
+    font-size: 18px;
+    width: 400px;
+    line-height: 1.2;
+}
+.icon-foot img{
+    padding: 10px;
+}
+.right-foot {
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.right-foot a {
+    text-decoration: none;
+    color: #000;
 }
